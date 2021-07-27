@@ -38,7 +38,7 @@ sudo kubeadm init
 
 echo "Creating Directory for kube..."
 
-sudo mkdir -p $HOME/.kube
+mkdir -p $HOME/.kube
 
 echo "Copying Kubeadm Configurations in kube directory..."
 
