@@ -55,3 +55,7 @@ kubectl apply -f https://docs.projectcalico.org/v3.9/manifests/calico.yaml
 echo "Untainting Master Nodes to make sure pods are scheduled on master node..."
 
 kubectl taint nodes --all node-role.kubernetes.io/master- 
+
+kubectl get nodes
+
+echo "Cluster is Ready with Master as Single Node..."
